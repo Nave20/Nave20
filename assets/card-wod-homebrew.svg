@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="190" viewBox="0 0 590 190" role="img" aria-label="WoD Homebrew: A home-made game system for Foundry: Mortal, Vampire, Ghoul, Garou and Mage sheets and rolls.">
+<defs>
+  <radialGradient id="g" cx="1" cy="0" r="1"><stop offset="0" stop-color="#14c8a8" stop-opacity=".38"/><stop offset=".6" stop-color="#14c8a8" stop-opacity="0"/></radialGradient>
+  <clipPath id="k"><rect width="590" height="190" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#k)">
+  <rect width="590" height="190" fill="#1a1d25"/>
+  <rect width="590" height="190" fill="url(#g)"><animate attributeName="opacity" values=".7;1;.7" dur="6s" repeatCount="indefinite"/></rect>
+</g>
+<rect x=".5" y=".5" width="589" height="189" rx="14" fill="none" stroke="#2a2f3a"/>
+<rect x="28" y="24" rx="11" height="22" width="133" fill="#14c8a8" fill-opacity=".16"/><text x="39" y="39.5" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#14c8a8">Foundry VTT V14</text>
+<text x="28" y="82" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.5" fill="#f3f4f6">WoD Homebrew</text>
+<text x="28" y="110" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" fill="#9aa3b2">A home-made game system for Foundry: Mortal, Vampire,</text><text x="28" y="131" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="15" fill="#9aa3b2">Ghoul, Garou and Mage sheets and rolls.</text>
+<circle cx="34" cy="159" r="6" fill="#f1e05a"/><text x="46" y="164" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="14" fill="#9aa3b2">JavaScript</text>
+<text x="560" y="165" text-anchor="end" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif" font-size="20" fill="#14c8a8">→</text>
+</svg>
