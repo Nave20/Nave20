@@ -214,12 +214,13 @@ ${nodes}
 // =============== STACK (vraies icônes sur tuiles claires) ===============
 function stack() {
   const items = [
-    ['c', 'C'], ['c-plusplus', 'C++'],
+    ['c', 'C'], ['c-plusplus', 'C++'], ['typescript', 'TypeScript'], ['javascript', 'JavaScript'],
+    ['python', 'Python'], ['nodejs', 'Node.js'], ['docker', 'Docker'], ['tauri', 'Tauri'], ['linux-tux', 'Linux'], ['bash', 'Bash'],
   ];
   const tile = 76, gap = 40, H = 130;
   const total = items.length * tile + (items.length - 1) * gap;
-  const W = total + 8;
-  let x = 4, out = '';
+  const W = 1200;
+  let x = (W - total) / 2, out = '';
   for (const [f, label] of items) {
     const raw = readFileSync(`${OUT}/icons/${f}.svg`, 'utf8');
     const data = Buffer.from(raw).toString('base64');

@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/stack.svg" alt="C, C++" height="110">
+  <img src="assets/stack.svg" alt="C, C++, TypeScript, JavaScript, Python, Node.js, Docker, Tauri, Linux, Bash" width="100%">
 </p>
 
 ### What I'm building
